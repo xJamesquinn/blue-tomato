@@ -1,0 +1,77 @@
+@font-face {
+  font-family: 'Sono-Bold';
+  src: url(../fonts/Sono-Bold.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Roboto-Serif';
+  src: url(../fonts/Roboto-Serif.woff) format('woff');
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 100vh;
+}
+
+.frame {
+	width: 970px;
+	height: 250px;
+	border: solid 1px gray;
+	background: #ff6600;
+	overflow: hidden;
+}
+
+.title {
+	text-align: left;
+	margin-left: 40px;
+	margin-top: 20px;
+	font-family: 'Sono-Bold';
+	font-size: 50px;
+	font-weight: 900;
+	letter-spacing: 1px;
+	color: #ffffff;
+}
+
+.body {
+	text-align: left;
+	margin-left: 40px;
+	margin-top: 20px;
+	font-family: 'Roboto-Serif';
+	font-size: 30px;
+	font-weight: 400;
+	letter-spacing: 0px;
+	color: #ffffff;
+}
+
+.image {
+	float: right;
+	margin-right: 30px;
+	margin-top: 10px;
+	width: 300px;
+	height: 300px;
+}
+
+.button {
+	position: relative;
+	left: 350px;
+	font-family: Sono-Bold;
+	font-size: 25px;
+	text-align: center;
+	color: #6666ff;
+	margin-top: -65px;
+	background: #ffffff;
+	width: 250px;
+	border-radius: 25px;
+	line-height: 24px;
+	padding: 20px 0 20px 0;
+	text-decoration: none;
+	transition: 0.4s;
+}
+
+.button:hover {
+	color:white;
+	background:#6666ff;
+	transition: 0.4s;
+}
